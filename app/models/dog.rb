@@ -4,9 +4,9 @@ class Dog
   @@DOGS = []
   
   def initialize(name:, breed:, age:)
-    :name = name
-    :age = age 
-    :breed = breed
+    name:  :name
+    age: :age 
+    breed: :breed
     @@DOGS << self
   end
   
